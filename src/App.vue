@@ -69,7 +69,7 @@ export default {
           " http://api.openweathermap.org/geo/1.0/direct?q=" +
             city +
             "&limit=1&appid=" +
-            "421448cc5993417186ea816f58e044b8"
+            "INSERT APP KEY HERE"
         );
         const GeoCoordRes = GeoCoord.data;
         const lat = GeoCoordRes[0].lat;
@@ -82,7 +82,7 @@ export default {
             "&lon=" +
             lon +
             "&appid=" +
-            "421448cc5993417186ea816f58e044b8"
+            "INSERT APP KEY HERE"
         );
         const WeatherDataRes = WeatherData.data;
         const iconCode = WeatherDataRes.weather[0].icon;
@@ -105,7 +105,7 @@ export default {
             "&lon=" +
             lon +
             "&appid=" +
-            "421448cc5993417186ea816f58e044b8"
+            "INSERT APP KEY HERE"
         );
         const HourlyWeatherData = HourlyWeatherForecast.data;
 
